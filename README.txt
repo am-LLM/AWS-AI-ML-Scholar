@@ -1,4 +1,4 @@
-Project: Customer Support Chatbot with Amazon Bedrock Flows
+Project: Customer Support Chatbot with Amazon Bedrock Flows (inside the project-1 folder)
 Student: Ali Malik
 
 1. Overview
