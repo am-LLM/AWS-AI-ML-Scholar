@@ -1,0 +1,57 @@
+{
+  "flowInputNode": {
+    "nodeName": "FlowInputNode"
+  },
+  "tests": [
+    {
+      "id": "bug_checkout_freeze",
+      "prompt": "When I click the checkout button on Chrome macOS Sonoma, the page freezes with error ERR_PAYMENT_TIMEOUT after entering billing details.",
+      "expected": "The system processes the bug report with the description, steps to reproduce, and macOS Chrome environment, generating a confirmed bug report ticket ID."
+    },
+    {
+      "id": "bug_cart_empty",
+      "prompt": "Whenever I add items to my cart and refresh the page on iOS Safari 17, my cart becomes empty and resets to 0 items.",
+      "expected": "The assistant logs a technical bug report ticket capturing the cart reset issue on iOS Safari and returns a ticket confirmation."
+    },
+    {
+      "id": "bug_search_crash",
+      "prompt": "Searching for special characters like # and & in the search bar causes a 500 internal server error crash on Windows 11 Edge.",
+      "expected": "The chatbot creates a bug ticket with steps to reproduce and environment information in the database."
+    },
+    {
+      "id": "faq_shipping_times",
+      "prompt": "How long does standard shipping take and what does it cost?",
+      "expected": "Standard shipping takes 3-5 business days and costs $4.99 (free on orders over $50) as detailed in the store FAQ."
+    },
+    {
+      "id": "faq_return_policy",
+      "prompt": "Can I return an item after 20 days and get a full refund?",
+      "expected": "Yes, items can be returned within 30 days of delivery in original condition with packaging for a full refund."
+    },
+    {
+      "id": "faq_payment_methods",
+      "prompt": "What payment methods do you accept online?",
+      "expected": "We accept major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay."
+    },
+    {
+      "id": "faq_order_tracking",
+      "prompt": "How can I track my shipped package?",
+      "expected": "Once your order ships, you will receive an email with a tracking number and link to track your shipment."
+    },
+    {
+      "id": "other_partnership",
+      "prompt": "We are a B2B vendor wanting to discuss bulk wholesale distribution contracts.",
+      "expected": "The assistant politely clarifies that wholesale partnership inquiries are handled by human representatives and refers the customer to 1-800-555-0199."
+    },
+    {
+      "id": "other_human_agent",
+      "prompt": "I need to speak directly to a live human manager immediately regarding a store dispute.",
+      "expected": "The chatbot directs the user to contact our human customer support team directly at 1-800-555-0199."
+    },
+    {
+      "id": "other_uncovered_query",
+      "prompt": "Can you provide legal counsel regarding copyright registration in international jurisdictions?",
+      "expected": "The assistant explains that legal inquiries are outside the chatbot's scope and directs the user to our support phone line at 1-800-555-0199."
+    }
+  ]
+}
